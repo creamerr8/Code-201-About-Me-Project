@@ -1,12 +1,58 @@
-'use strict';
+'use strict'
 
 
-var state = promt('Am I from Washington?');
+var state = prompt('Am I from Washington?')
+console.log(state)
+state = state.toUpperCase()
+console.log(state)
+    if (state == 'YES'){
+        alert('you are correct!')
+    } else if (state == 'NO')
+    {
+        alert('you are incorrect')
+    }
 
-var age = promt('Am I a minor?');
 
-var sports = promt('Am I an athlete?');
+var age = prompt('Am I a minor?')
+console.log(age)
+age = age.toUpperCase()
+console.log(age)
+    if (age == 'YES'){
+        alert('you are correct!')
+    } else if (age == 'NO')
+    {
+        alert('you are incorrect')
+    }
 
-var sxhool = promt('Am I in school?');
+var sports = prompt('Am I an athlete?')
+console.log(sports)
+sports = sports.toUpperCase()
+console.log(sports)
+    if (sports == 'YES'){
+        alert('you are correct!')
+    } else if (sports == 'NO')
+    {
+        alert('you are incorrect')
+    }
 
-var game = promt('Am I a gamer?');
+var school = prompt('Am I in school?')
+console.log(school)
+school = school.toUpperCase()
+console.log(school)
+    if (school == 'YES'){
+        alert('you are correct!')
+    } else if (school == 'NO')
+    {
+        alert('you are incorrect')
+    }
+
+var game = prompt('Am I a gamer?')
+console.log(game)
+game = game.toUpperCase()
+console.log(game)
+    if (game == 'YES'){
+        alert('you are correct!')
+    } else if (game == 'NO')
+    {
+        alert('you are incorrect')
+    }

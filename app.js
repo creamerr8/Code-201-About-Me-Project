@@ -1,3 +1,6 @@
+'use strict';
+
+
 var state = promt('Am I from Washington?');
 
 var age = promt('Am I a minor?');

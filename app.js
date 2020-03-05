@@ -23,7 +23,7 @@ age = age.toUpperCase()
     if (age == 'YES'){
         alert('you are correct!');
         userscore++;
-    } else if (age == 'NO')
+    } else if (age == 'NO')  
     {
         alert('you are incorrect');
     }

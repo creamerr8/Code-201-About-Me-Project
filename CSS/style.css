@@ -1,0 +1,41 @@
+h1 {
+    color: black;
+    text-align: center;
+}
+body{
+    background-color: grey;
+}
+p{
+    color: gold;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+}
+ul{
+    color: gold;
+    text-align: center;
+    display: block;
+    margin: auto;
+    list-style-position: inside;
+}
+ol{
+    color: gold;
+    text-align: center;
+    display: block;
+    margin: auto;
+    list-style-position: inside;
+}
+h2{
+    color: black;
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: 200px;
+}
+
+
+
